@@ -1,0 +1,32 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background: rgb(35, 31, 31); font-family: optima; padding-right: 15px;padding-left: 15px;border-width: 2px;border-color: black;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 10px; font-weight: 600; color: rgb(255, 255, 255);
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(255, 240, 240); font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button{
+a:link, a:visited {
+background-color: rgb(191, 34, 34);
+color: rgb(255, 255, 255);
+padding: 10px 35px;
+text-align: center;
+
+border-radius: 19px;
+}
+
+a:hover, a:active {
+background-color: red;
